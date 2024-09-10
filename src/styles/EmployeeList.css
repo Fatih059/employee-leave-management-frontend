@@ -1,0 +1,82 @@
+.table-container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.table-container h2 {
+    margin: 20px 0;
+    color: #007bff;
+    font-size: 26px; /* Puntoyu biraz artırdım */
+    font-weight: bold;
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.table-container th, .table-container td {
+    padding: 12px 15px;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.table-container th {
+    background-color: #007bff;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.table-container td {
+    color: #495057;
+    font-size: 14px;
+}
+
+.table-container td .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.table-container td button {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.table-container td button:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+}
+
+.back-button {
+    display: block;
+    width: 150px;
+    margin: 30px auto; /* Ortalamak için genişlik arttırıldı */
+    padding: 10px 20px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.back-button:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+}
